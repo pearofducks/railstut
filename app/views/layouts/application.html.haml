@@ -1,0 +1,13 @@
+!!!
+%html
+  %head
+    %title= title
+    = render 'layouts/stylesheets'
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    .container
+      = render 'layouts/header'
+      %section.round
+        = yield
+      = render 'layouts/footer'
