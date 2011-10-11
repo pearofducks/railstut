@@ -1,0 +1,10 @@
+Makefile
+*.so
+*.o
+*.def
+*.rbc
+doc/
+pkg/
+coverage/
+.yardoc/
+/tags

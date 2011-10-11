@@ -12,18 +12,19 @@ group :development do
   gem 'rspec-rails'
   gem 'hpricot'
   gem 'ruby_parser'
+  gem 'pry'
 end
 
 group :test do
   gem 'rspec-rails'
   gem 'webrat'
   gem 'spork'
+  gem "autotest"
+  gem "autotest-rails-pure"
+  gem "autotest-fsevent"
+  gem "autotest-growl"
 end
 
-gem "autotest"
-gem "autotest-rails-pure"
-gem "autotest-fsevent"
-gem "autotest-growl"
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
